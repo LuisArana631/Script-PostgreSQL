@@ -140,7 +140,7 @@ CREATE TABLE EVENTO(
 	cod_evento int NOT NULL,
 	fecha date NOT NULL,
 	ubicacion varchar(50) NOT NULL,
-	hora date NOT NULL,
+	hora time NOT NULL,
 	DISCIPLINA_cod_disciplina int NOT NULL,
 	TIPO_PARTICIPACION_cod_participacion int NOT NULL,
 	CATEGORIA_cod_categoria int NOT NULL,
